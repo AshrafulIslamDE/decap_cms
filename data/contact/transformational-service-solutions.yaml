@@ -1,0 +1,11 @@
+- image: "/img/contacts/heckertn_LThumb-zugeschnitten.jpg"
+  linkedin: "https://www.linkedin.com/in/nico-heckert-14b770140"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=nico.heckert@cgi.com&topicname=Chat"
+  name: "Nico Heckert"
+  position: "VP Consulting Delivery"
+
+- image: "/img/contacts/lehmannc_LThumb-zugeschnitten.jpg"
+  linkedin: "https://www.linkedin.com/in/christa-lehmann-b571921a4/"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=christa.lehmann@cgi.com&topicname=Chat"
+  name: "Christa Lehmann"
+  position: "Director, Consulting Expert"

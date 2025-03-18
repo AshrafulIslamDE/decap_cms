@@ -1,0 +1,40 @@
+<header class="header">
+  <div class="container">
+    <a href="{{ "/" | relURL }}" class="logo">
+      <img src="{{ "/img/stockImages/cropped-CGI_logo_color_rgb-1.jpg" | relURL }}" alt="CGI">
+    </a>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="{{ "/" | relURL }}">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Strategic Key Offerings <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"><path d="M7 10l5 5 5-5z"></path></svg></a>
+          <div class="dropdown-menu">
+            <ul>
+              {{ with site.Data.navigation.navigation }}
+              <li><a href="{{ .managed_security_service }}">Managed Security Services</a></li>
+              <li><a href="{{ .ai_and_automation }}">AI & Automation</a></li>
+              <li><a href="{{ .sovereign_public_and_private_cloud}}">Sovereign Public & Private Cloud</a></li>
+              <li><a href="{{.transformational_services_and_solutions }}">Transformational Services & Solutions</a></li>
+              <li><a href="{{ .squad_delivery }}">Squad Delivery</a></li>
+              {{end}}
+            </ul>
+          </div>
+        </li>
+        {{ with site.Data.navigation.navigation }}
+        <li><a href="{{ .further_services_and_glossary }}">Weitere Services & Glossar</a></li>
+        <li><a href="{{ .partnerships_and_alliances }}">Partnerschaften und Allianzen</a></li>
+        {{end}}
+      </ul>
+    </nav>
+
+    <div class="separator-line"></div>
+
+    <div class="germany-flag">
+      <a href="https://ensemble.ent.cgi.com/business/260268/SitePages/Home2.aspx">
+        <img src="{{ "/img/stockImages/flag-square-250.png" | relURL }}" alt="GTO Germany">
+        GTO Germany
+      </a>
+    </div>
+  </div>
+</header>

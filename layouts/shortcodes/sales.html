@@ -1,0 +1,17 @@
+{{- $file := .Get "file" }} 
+{{- $data := index .Site.Data.sales $file }}
+
+<link rel="stylesheet" href="{{ "/css/sales.css" | relURL }}">
+
+<div class="section sales custom-sales">
+  <div class="container">
+    <div class="sales-text" >
+      <h1 class="sales-title1">{{ $data.title1 }}</h1>
+      <h2 class="sales-title2">{{ $data.title2 }}</h2>
+      <p class="sales-description">{{ $data.text }}</p>
+    </div>
+    <div class="sales-image">
+      <img src="{{ $data.image | default "/img/default.png" }}" alt="Sales Image">
+    </div>
+  </div>
+</div>

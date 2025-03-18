@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="{{ "/css/button-home.css" | relURL }}">
+
+<div class="button-home-container">
+  {{ range .Params }}
+  <a class="button-home">{{ . }}</a>
+  {{ end }}
+</div>

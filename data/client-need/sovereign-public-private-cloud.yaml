@@ -1,0 +1,17 @@
+- image: "/img/stockImages/AdobeStock_299735010_lo.jpeg"
+  title: "Einheitliche Benutzererfahrung"
+  description: "Durch die hybride Integration können Entwickler und Anwender auf alle Ressourcen zugreifen,
+   als ob sie aus einer einzigen Cloud-Umgebung stammen. Dies vereinfacht die Nutzung und fördert die Produktivität."
+
+- image: "/img/stockImages/AdobeStock_316760820_lo-3.jpeg"
+  title: "Hohe Flexibilität und Skalierbarkeit"
+  description: "Die hybride Architektur erlaubt es, je nach Bedarf dynamisch zwischen
+   öffentlichen und privaten Ressourcen zu wechseln, ohne dass dies für die
+   Endbenutzer erkennbar ist. Dies gewährleistet optimale Performance und Kosteneffizienz."
+
+- image: "/img/stockImages/AdobeStock_332362167_lo.jpeg"
+  title: "Sicherheits- und Compliance-Versprechen"
+  description: "Trotz der nahtlosen Integration bleiben strenge Sicherheits- und Compliance-
+    Richtlinien erhalten, um die Datensouveränität zu wahren und gesetzliche
+    Anforderungen zu erfüllen."
+

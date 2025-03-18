@@ -1,0 +1,27 @@
+.container {
+  max-width: 1254px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  padding: 0px 0;
+}
+
+.section-vertically {
+  width: 100%;
+  height: auto;
+  padding: 0px 0;
+  display: block !important
+}
+
+
+
+
+.custom-hr {
+  background-color: #d2d2d2 ;
+  height: 1px;
+  border: none;
+}

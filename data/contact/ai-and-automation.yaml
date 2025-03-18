@@ -1,0 +1,12 @@
+- image: "/img/contacts/contact_us_marcus_boehme-zugeschnitten.jpg"
+  linkedin: "https://www.linkedin.com/in/marcus-boehme/"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=marcus.boehme@cgi.com&topicname=Chat"
+  name: "Marcus Böhme"
+  position: "VP Consulting Delivery"
+
+- image: "/img/contacts/MarcMogilskiZugeschnitten.jpeg"
+  linkedin: "https://www.linkedin.com/in/marcmogilski/"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=marc.mogilski@cgi.com&topicname=Chat"
+  name: "Marc Mogilski"
+  position: "VP Consulting Delivery"
+  description: "Marc leitet die Transformation und das Business Development der GTO Germany Business Unit. Er ist Ansprechpartner für Großausschreibungen und treibt diese innerhalb der Organisation und dient als Schnittstelle zwischen diversen Bereichen innerhalb der GTO sowie zu den Metromärkten."

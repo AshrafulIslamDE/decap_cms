@@ -1,0 +1,102 @@
+.contact-container {
+  padding-bottom: 60px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contact-container h2 {
+  color: #3a257d;
+  font-size: 28px !important;
+  margin-top: 15px;
+  width: 81%;
+  text-align: left;
+  line-height: 150%;
+  font-weight: normal;
+}
+
+.contact-person {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  gap: 40px;
+  width: 48%;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.contact-person img {
+  display: block;
+  height: 267px;
+  width: 205px;
+  max-width: unset;
+  border-radius: 0;
+}
+
+.contact-info {
+  margin-top: -5px;
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100%;
+  line-height: 150%;
+}
+
+.contact-info h5,
+.contact-info p {
+  font-size: 21px;
+  color: #333;
+  margin: 0;
+}
+
+.contact-info h5 {
+  font-weight: 400;
+}
+
+.contact-info p {
+  font-weight: 300;
+  font-size: 13px;
+  width: 80%;
+}
+
+.contact-info .position {
+  margin-bottom: 10px;
+}
+
+.contact-info .description {
+  margin-top: 0;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 0;
+  right: -12px;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  z-index: 10;
+  background-color: white;
+}
+
+.social-links::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg, #5236ab 0%, #e41937 100%);
+}
+
+.social-link {
+  color: #333;
+}
+
+.social-link i {
+  font-size: 22px;
+}

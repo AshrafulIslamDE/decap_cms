@@ -1,0 +1,38 @@
+.button-home-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 2px;
+            flex-direction: column;
+}
+
+.button-home {
+    display: inline-block;
+
+    border: 2px solid #000;
+    border-radius: 25px;
+    border-color: #6e4aac;
+    text-decoration: none;
+    color: #200a58;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    margin-right: 10px;
+}
+
+a.button-home{
+    padding: 10px 20px;
+    font-family: "Source Sans Pro", Arial;
+    line-height: 1.5;
+}
+
+.button-home:hover {
+    background-color: #6e4aac;
+    color: #fff !important;
+}
+
+
+  
+   
+  

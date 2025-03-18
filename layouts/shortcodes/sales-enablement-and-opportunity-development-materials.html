@@ -1,0 +1,47 @@
+{{ $file := .Get "file" }}
+{{ $data := index .Site.Data.sales $file }}
+
+<link rel="stylesheet" href="{{ "/css/sales-enablement-and-opportunity-development-materials.css" | relURL }}">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<div class="service container">
+    <div class="header-box">
+        Sales Enablement and Opportunity Development Materials
+    </div>
+</div>
+
+{{ range $data }}
+<div class="service container">
+    <div class="material-container"> 
+  
+    <div class="material-image">
+        <img src="{{ .image }}" alt="{{ .title }}">
+    </div>
+    
+    <div class="content-wrapper">
+        <div class="vertical-line"></div>
+    
+        <div class="material-content">
+            <h2 class="material-title">
+                {{ .title }}
+                <div class="material-buttons">
+                    <div class="material-btn material-btn-primary">
+                        <i class="fa fa-file-{{ lower .file_type1 }}"></i> {{ .file_type1 }}
+                    </div>
+    
+                    <div class="material-btn material-btn-secondary">
+                        <i class="fa fa-arrow-up-right-from-square"></i> {{ .file_type2 }}
+                    </div>
+                </div>
+            </h2>
+            <p class="material-description">{{ .description }}</p>
+            <div class="material-actions">
+                <a href="{{ .link }}" class="material-link">
+                    {{ .link_text }} <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+{{ end }}

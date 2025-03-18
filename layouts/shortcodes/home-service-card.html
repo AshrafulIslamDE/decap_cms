@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="{{ "/css/home-service-card.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/page-common-alignment.css" | relURL }}">
+<link rel="stylesheet" href="{{ "/css/button-home.css" | relURL }}">
+
+{{ $nav := site.Data.navigation.navigation }}
+{{ range site.Data.home_service.services }}
+  <div class="service-card">
+    <a href="{{ index $nav .explore_link }}">
+      <img src="{{ .image }}" alt="{{ .title }}">
+    </a>
+    <a href="{{ index $nav .explore_link }}" class="service-title">{{ .title }}</a>
+    <p class="service-description">{{ .description }}</p>
+
+    <div class="button-home-container">
+      {{ range .buttons }}
+        <a class="button-home">{{ . }}</a>
+      {{ end }}
+    </div>
+
+    <a href="{{ index $nav .explore_link }}" class="explore-link" style="color: #200A58;">
+      Explore {{ .title }}
+      <svg width="24" height="12" viewBox="0 0 24 12" fill="none">
+        <path d="M23.4803 6.53033C23.7732 6.23744 23.7732 5.76256 23.4803 5.46967L18.7073 0.696699C18.4144 0.403806 17.9396 0.403806 17.6467 0.696699C17.3538 0.989593 17.3538 1.46447 17.6467 1.75736L21.8893 6L17.6467 10.2426C17.3538 10.5355 17.3538 11.0104 17.6467 11.3033C17.9396 11.5962 18.4144 11.5962 18.7073 11.3033L23.4803 6.53033ZM0.703125 6.75H22.95V5.25H0.703125V6.75Z" fill="#333333"/>
+      </svg>
+    </a>
+  </div>
+{{ end }}
+

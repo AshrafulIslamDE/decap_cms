@@ -1,0 +1,8 @@
+defaultContentLanguage = "de"
+defaultContentLanguageInSubdir = false
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

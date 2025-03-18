@@ -1,0 +1,50 @@
+.custom-sales {
+    background: #efefef;
+    letter-spacing: 0px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+    line-height: 150%;
+    color: #333;
+    border-radius: 8px;
+}
+
+.custom-sales .container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: left;
+}
+
+.sales-title1 {
+    color: #200a58;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 10px; 
+}
+
+.sales-title2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #200a58;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 5px;
+}
+
+.sales-description {
+    font-weight: 300;
+    line-height: 150%;
+    font-family: "Source Sans Pro", Arial;
+    font-size: 16px;
+    color: #333;
+}
+
+.sales-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: block;
+}

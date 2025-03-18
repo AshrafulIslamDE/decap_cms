@@ -1,0 +1,11 @@
+- image: "/img/contacts/contact_us_marcus_boehme-zugeschnitten.jpg"
+  linkedin: "https://www.linkedin.com/in/marcus-boehme/"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=marcus.boehme@cgi.com&topicname=Chat"
+  name: "Marcus Böhme"
+  position: "VP Consulting Delivery"
+
+- image: "/img/contacts/contact_us_kevin_sandermann-zugeschnitten.jpg"
+  linkedin: "https://www.linkedin.com/in/kevin-sandermann-417b2b148/"
+  chat: "https://teams.microsoft.com/l/chat/0/0?users=kevin.sandermann@cgi.com&topicname=Chat"
+  name: "Kevin Sandermann"
+  position: "Director, Consulting Delivery"

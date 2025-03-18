@@ -1,0 +1,50 @@
+services:
+  - title: "Managed Security Services"
+    image: "/img/stockImages/1-scaled-1.jpg"
+    description: "Schützen Sie Ihre wertvollsten Daten und Systeme mit unseren umfassenden Managed Security Services."
+    buttons:
+      - "Center of Excellence"
+      - "Security Operations Center"
+      - "Vulnerability Management"
+      - "Threat Detection"
+    explore_link: "managed_security_service"
+
+  - title: "AI & Automation"
+    image: "/img/stockImages/AdobeStock_316760820_lo-3.jpeg"
+    description: "Steigern Sie Ihre Effizienz und Innovationskraft durch intelligente Automatisierungslösungen."
+    buttons:
+      - "Machine Learning"
+      - "Robotic Process Automation"
+      - "Predictive Analytics"
+      - "Natural Language Processing"
+    explore_link: "ai_and_automation"
+
+  - title: "Sovereign Public & Private Cloud"
+    image: "/img/stockImages/AdobeStock_332362167_lo.jpeg"
+    description: "Erleben Sie maximale Flexibilität und Kontrolle mit unseren souveränen Public- und Private-Cloud-Lösungen."
+    buttons:
+      - "Data Sovereignty"
+      - "Hybrid Cloud Integration"
+      - "Scalability"
+      - "Compliance"
+    explore_link: "sovereign_public_and_private_cloud"
+
+  - title: "Transformational Services & Solutions"
+    image: "/img/stockImages/img-zugeschnitten.png"
+    description: "Transformieren Sie Ihr Unternehmen und erschließen Sie neue Möglichkeiten mit unseren maßgeschneiderten Transformationslösungen."
+    buttons:
+      - "Digital Transformation"
+      - "Change Management"
+      - "Business Process Reengineering"
+      - "Innovation Strategy"
+    explore_link: "transformational_services_and_solutions"
+
+  - title: "Squad Delivery"
+    image: "/img/stockImages/AdobeStock_299735010_lo.jpeg"
+    description: "Erreichen Sie Ihre Ziele schneller und effizienter mit unserem agilen Squad Delivery Ansatz."
+    buttons:
+      - "Data Sovereignty"
+      - "Hybrid Cloud Integration"
+      - "Scalability"
+      - "Compliance"
+    explore_link: "squad_delivery"

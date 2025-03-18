@@ -1,0 +1,70 @@
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  gap: 60px;
+  padding: 0px 0px 0px 0px;
+  font-family: "Source Sans Pro", Arial;
+  max-width: auto;
+  align-items: start;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: auto;
+}
+
+.service-card img {
+  height: 131px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.service-title {
+  color: #5236ab;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 0 0;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Source Sans Pro", Arial;
+  font-size: 18px;
+}
+
+.service-description {
+  font-weight: 300;
+  line-height: 150%;
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 0 0;
+  padding: 0%;
+}
+
+.explore-link {
+  align-items: center;
+  color: #200A58;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.explore-link svg {
+  display: inline-block;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+
+.explore-link:hover svg {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+}

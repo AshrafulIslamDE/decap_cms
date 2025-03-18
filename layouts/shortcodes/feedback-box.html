@@ -1,0 +1,12 @@
+{{- $file := .Get "file" }}
+{{- $data := index .Site.Data.feedback $file }}
+
+<link rel="stylesheet" href="{{ "/css/feedback-box.css" | relURL }}">
+
+<div class="feedback-box">
+    <a href="{{ $data.link }}">
+      <img src="{{ $data.contactImage }}" alt="Contact Image" />
+    </a>
+    <img src="{{ $data.teamsIcon }}" alt="Teams Icon" />
+</div>
+  

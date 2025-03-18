@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="{{ "/css/partner-logos.css" | relURL }}">
+
+<div class="section-vertically container partner-logos">
+  <h2 class="partner-title" >{{ .Get "title" }}</h2>
+  <p class="partner-description">{{ .Get "description" }}</p>
+  <div class="logo-grid">
+    {{ range split (.Get "logos") "," }}
+    <div class="logo-item">
+      <img src="{{ . | relURL }}" alt="Partner Logo" />
+    </div>
+    {{ end }}
+  </div>
+</div>
